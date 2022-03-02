@@ -1,0 +1,131 @@
+# Site
+repository: f0ns1/f0ns1_offensive_security
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Ildefonso González Sánchez
+title: Cybersecurity enginieer
+email: fonso.gonzalezsan@gmail.com
+# email_title: Email (Email title override)
+phone: 659109167
+phone_title: Phone
+website: f0ns1_offensive_security.github.io
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+#twitter_username: jekyllrb
+github_username:  f0ns1
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username:
+linkedin_username: ildefonso-gonzález-sánchez-0b693555
+#xing_username: jekyll
+#pinterest_username: jekyll
+youtube_username: xiquifonso
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: f0ns1
+
+# Additional icon links
+additional_links:
+- title: Blog offensive security
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: https://roadtooscp-f0ns1.blogspot.com/
+- title: Twitch streaming channel
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: https://www.twitch.tv/f0ns1_mad
+
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/igs.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi everyone, I'm Ildefonso González Sánchez and I'm 33 years old.
+  
+  Actually, I'm a freelance cybersecurity IT consultant, I'm technology lover but I feel passion for:
+    - Offensive Security
+    - Cybersecurity
+    - Software
+    - Operative systemas
+    - Architecture
+  
+  I want to work on the following positions:
+    - Read Teaming
+    - Pentesting
+    - Ethical hacker
+    - Cybersecurity auditor
+
+content:
+  - title: Education
+    layout: list
+    content:
+      - layout: Master Degree Offensive Security
+        title: Master Degree Offensive Security
+        sub_title:
+        caption: (2021-2022)
+        quote: >
+          Offensive Security
+        description: | # this will include new lines to allow paragraphs
+          Campus Internacional de ciberseguridad /Universidad Católica de Murcia
+      - layout: Master Degree Cybersecurity
+        title: Universidad Camilo Jose Cela / IMF Business Madrid / Deloitte Cybersoc
+        caption: (2016-2017)
+        description: | # this will include new lines to allow paragraphs
+            Cybersecurity
+      - layout: Technical Enginieer on Informatic Systems
+        title: Technical Enginieer on Informatic Systems
+        sub_title: ITIS
+        quote: >
+            Informatic Engienieering
+        description: | # this will include new lines to allow paragraphs
+            Universidad Rey Juan Carlos
+  - title: Experience
+    layout: list
+    content:
+      - layout: Master Degree Offensive Security
+        title: Master Degree Offensive Security
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
