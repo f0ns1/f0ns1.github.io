@@ -29,17 +29,17 @@ github_username:  f0ns1
 linkedin_username: ildefonso-gonzález-sánchez-0b693555
 #xing_username: jekyll
 #pinterest_username: jekyll
-youtube_username: xiquifonso
+youtube_username: xiquifonso/videos
 #orcid_username: 0000-0000-0000-0000
 #googlescholar_username: f0ns1
 
 # Additional icon links
 additional_links:
 - title: Blog offensive security
-  icon: fa-brands fa-blogger
+  icon: fab fa-blogger
   url: https://roadtooscp-f0ns1.blogspot.com/
 - title: Twitch streaming channel
-  icon: fa-brands fa-twitch
+  icon: fab fa-twitch
   url: https://www.twitch.tv/f0ns1_mad
 
 # - title: another link
@@ -62,7 +62,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Offensive Security
     - Cybersecurity
     - Software
-    - Operative systemas
+    - Operative systems
     - Architecture
   
   I want to work on the following positions:
@@ -101,34 +101,62 @@ content:
     layout: list
     content:
       - layout: Resume
-        title: [Resume-cv](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
+        title: CV Ildefonso González Sanchez
         sub_title:
-          quote:
-          description: Download or visualice online the Resume CV
+        quote: >
+            Informatic Engineering
+        description: | # this will include new lines to allow paragraphs
+            [Ildefonso González Sánchez - Resume -cv](https://f0ns1.github.io/images/cv.pdf)
   - title: Recommended by Ildefonso
     layout: list
     content:
-      - layout: Titles
-        title: [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
+      - layout: Titulations
+        title: Titulations
         sub_title:
-          quote:
-          description: Download or visualice online the Resume CV
+        quote: >
+          Informatic Engineering
+        description: | 
+          | 
+          [Ildefonso - ITIS - Tittle](https://f0ns1.github.io/images/ITIS.pdf)
+          |
+          [Ildefonso - Cybersecurity - Tittle1](https://f0ns1.github.io/images/Master1.pdf)
+          |
+          [Ildefonso - Cybersecurity - Tittle2](https://f0ns1.github.io/images/Master1.1.pdf)
+          |
+          [Ildefonso - Recommended by comanies ](https://f0ns1.github.io/images/Cartas_recomendacion_IGS.pdf)
       - layout: Hacking certificates
-        title:
+        title: Hacking certificates
         sub_title:
-          quote: >
-            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
-            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
-            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
-          description: Download or visualice online the Resume CV
-      - layout: Hacking certificates
-        title: [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
+        quote: >
+          Informatic Engineering
+        description: |
+          |
+          [ Pentesting Certificate CSIO ](https://f0ns1.github.io/images/CSIO.pdf) 
+          |
+          [ Exploitng Certificate CSCE ](https://f0ns1.github.io/images/CSCE.pdf) 
+          |
+          [ Pentesting && Wireless Certificate Sav1t4r courses ](https://f0ns1.github.io/images/certificados_s4vitar.pdf) 
+          |
+          [ Hacking with python && ](https://ethicalhackersacademy.com/) 
+          |
+      - layout: Streaming channels
+        title: Streaming channels
         sub_title:
-          quote: >
-            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
-            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
-            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
-          description: Download or visualice online the Resume CV
+        quote: >
+          Informatic Engineering
+        description: | # this will include new lines to allow paragraphs
+          |
+          [ Youtube channel - Persistence ](https://www.youtube.com/user/xiquifonso/videos) 
+          |
+          [ Tiwtch channel - streaming ](https://www.twitch.tv/f0ns1_mad/videos?filter=archives&sort=time)
+          |
+      - layout: OSCP Personal blog
+        title: Road to OSCP personal blog
+        sub_title:
+        quote: >
+          Informatic Engineering
+        description: | # this will include new lines to allow paragraphs
+          [ Road to OSCP personal Blog ](https://roadtooscp-f0ns1.blogspot.com/)
 
 # Footer
 footer_show_references: true
