@@ -92,6 +92,7 @@ content:
             Universidad Camilo Jose Cela / IMF Business Madrid / Deloitte Cybersoc
       - layout: Technical Enginieer on Informatic Systems
         title: Technical Enginieer on Informatic Systems
+        caption: (2009-2014)
         sub_title: ITIS
         quote: >
             Informatic Engineering
@@ -117,13 +118,13 @@ content:
           Informatic Engineering
         description: | 
           | 
-          [Ildefonso - ITIS - Tittle](https://f0ns1.github.io/images/ITIS.pdf)
+          [Ildefonso - ITIS - Tittle](https://f0ns1.github.io/images/ITIS.jpg)
           |
-          [Ildefonso - Cybersecurity - Tittle1](https://f0ns1.github.io/images/Master1.pdf)
+          [Ildefonso - Cybersecurity - Tittle1](https://f0ns1.github.io/images/Master1.jpeg)
           |
           [Ildefonso - Cybersecurity - Tittle2](https://f0ns1.github.io/images/Master1.1.pdf)
           |
-          [Ildefonso - Recommended by comanies ](https://f0ns1.github.io/images/Cartas_recomendacion_IGS.pdf)
+          [Ildefonso - Recommended by companies (old) ](https://f0ns1.github.io/images/Cartas_recomendación_IGS.pdf)
       - layout: Hacking certificates
         title: Hacking certificates
         sub_title:
@@ -137,7 +138,7 @@ content:
           |
           [ Pentesting && Wireless Certificate Sav1t4r courses ](https://f0ns1.github.io/images/certificados_s4vitar.pdf) 
           |
-          [ Hacking with python && ](https://ethicalhackersacademy.com/) 
+          [ Hacking with python && software security ](https://ethicalhackersacademy.com/) 
           |
       - layout: Streaming channels
         title: Streaming channels
