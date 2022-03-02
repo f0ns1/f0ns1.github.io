@@ -102,7 +102,33 @@ content:
     content:
       - layout: Resume
         title: [Resume-cv](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
-
+        sub_title:
+          quote:
+          description: Download or visualice online the Resume CV
+  - title: Recommended by Ildefonso
+    layout: list
+    content:
+      - layout: Titles
+        title: [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
+        sub_title:
+          quote:
+          description: Download or visualice online the Resume CV
+      - layout: Hacking certificates
+        title:
+        sub_title:
+          quote: >
+            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
+            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
+            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
+          description: Download or visualice online the Resume CV
+      - layout: Hacking certificates
+        title: [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
+        sub_title:
+          quote: >
+            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
+            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
+            [ Resume-cv ](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
+          description: Download or visualice online the Resume CV
 
 # Footer
 footer_show_references: true
