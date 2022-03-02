@@ -12,7 +12,7 @@ email: fonso.gonzalezsan@gmail.com
 # email_title: Email (Email title override)
 phone: 659109167
 phone_title: Phone
-website: f0ns1_offensive_security.github.io
+website: f0ns1.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -36,10 +36,10 @@ youtube_username: xiquifonso
 # Additional icon links
 additional_links:
 - title: Blog offensive security
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  icon: fa-brands fa-blogger
   url: https://roadtooscp-f0ns1.blogspot.com/
 - title: Twitch streaming channel
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  icon: fa-brands fa-twitch
   url: https://www.twitch.tv/f0ns1_mad
 
 # - title: another link
@@ -84,22 +84,24 @@ content:
         description: | # this will include new lines to allow paragraphs
           Campus Internacional de ciberseguridad /Universidad Católica de Murcia
       - layout: Master Degree Cybersecurity
-        title: Universidad Camilo Jose Cela / IMF Business Madrid / Deloitte Cybersoc
+        title: Master Degree Cybersecurity
         caption: (2016-2017)
+        quote: >
+          CyberSecurity
         description: | # this will include new lines to allow paragraphs
-            Cybersecurity
+            Universidad Camilo Jose Cela / IMF Business Madrid / Deloitte Cybersoc
       - layout: Technical Enginieer on Informatic Systems
         title: Technical Enginieer on Informatic Systems
         sub_title: ITIS
         quote: >
-            Informatic Engienieering
+            Informatic Engineering
         description: | # this will include new lines to allow paragraphs
             Universidad Rey Juan Carlos
   - title: Experience
     layout: list
     content:
-      - layout: Master Degree Offensive Security
-        title: Master Degree Offensive Security
+      - layout: Resume
+        title: [Resume-cv](https://github.com/f0ns1/f0ns1.github.io/tree/master/images/cv.pdf)
 
 
 # Footer
