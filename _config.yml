@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Ildefonso González Sánchez
 title: Cybersecurity enginieer
-email: fonso.gonzalezsan@gmail.com
+email: fonso.gonzalezsan@gmail.com|f0ns1.master.oscp@gmail.com
 # email_title: Email (Email title override)
 phone: 659109167
 phone_title: Phone
@@ -58,7 +58,7 @@ about_profile_image: images/igs.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi everyone, I'm Ildefonso González Sánchez and I'm 33 years old.
   
-  Actually, I'm a freelance cybersecurity IT consultant, I'm technology lover but I feel passion for:
+  Actually, I'm cybersecurity IT consultant, technology lover but I feel passion for:
     - Offensive Security
     - Cybersecurity
     - Software
@@ -69,12 +69,20 @@ about_content: | # this will include new lines to allow paragraphs
     - Read Teaming
     - Pentesting
     - Ethical hacker
-    - Cybersecurity auditor
+    - Cybersecurity consultant
 
 content:
   - title: Education
     layout: list
     content:
+      - layout: OSCP
+        title: Offensive Security Certified professional
+        sub_title:
+        caption: (2021-2022)
+        quote: >
+          Offensive Security
+        description: | # this will include new lines to allow paragraphs
+          Campus Internacional de ciberseguridad /Universidad Católica de Murcia
       - layout: Master Degree Offensive Security
         title: Master Degree Offensive Security
         sub_title:
@@ -120,9 +128,13 @@ content:
           | 
           [Ildefonso - ITIS - Tittle](https://f0ns1.github.io/images/ITIS.jpg)
           |
-          [Ildefonso - Cybersecurity - Tittle1](https://f0ns1.github.io/images/Master1.jpeg)
+          [Ildefonso - Cybersecurity - Master1 - Tittle1](https://f0ns1.github.io/images/Master1.jpeg)
           |
-          [Ildefonso - Cybersecurity - Tittle2](https://f0ns1.github.io/images/Master1.1.pdf)
+          [Ildefonso - Cybersecurity - Master1 - Tittle2](https://f0ns1.github.io/images/Master1.1.pdf)
+          |
+          [Ildefonso - Offensive Cybersecurity - Master2 -Tittle1 ]
+          |
+          [Ildefonso - Offensive Cybersecurity - Master2 - Tittle2]
           |
           [Ildefonso - Recommended by companies (old) ](https://f0ns1.github.io/images/Cartas_recomendación_IGS.pdf)
       - layout: Hacking certificates
@@ -131,6 +143,7 @@ content:
         quote: >
           Informatic Engineering
         description: |
+          [ Offensive Security Certified Professional OSCP ] (https://f0ns1.github.io/images/OSCP.pdf)
           |
           [ Pentesting Certificate CSIO ](https://f0ns1.github.io/images/CSIO.pdf) 
           |
