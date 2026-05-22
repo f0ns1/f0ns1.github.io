@@ -4,12 +4,12 @@ repository: f0ns1/f0ns1_offensive_security
 
 # Content configuration version
 version: 2
+resume_layout: split
 
 # Personal info
 name: Ildefonso González Sánchez
-title: Cybersecurity enginieer
-email: Zm9uc28uZ29uemFsZXpzYW5AZ21haWwuY29tCg==
-|ZjBuczEubWFzdGVyLm9zY3BAZ21haWwuY29tCg==
+title: Especialista en Ciberseguridad | Red Team | Pentesting
+email: "Zm9uc28uZ29uemFsZXpzYW5AZ21haWwuY29tCg==|ZjBuczEubWFzdGVyLm9zY3BAZ21haWwuY29tCg=="
 # email_title: Email (Email title override)
 phone: +34 Y3JlbyBxdWUgeWEgZGViZSBkZSBzZXIgcHJpdmFkbwo
 phone_title: Phone
@@ -36,16 +36,21 @@ youtube_username: xiquifonso
 
 # Additional icon links
 additional_links:
-- title: Blog offensive security
+- title: Malware development & EDR bypass
+  icon: fab fa-github
+  url: https://f0ns1reviewed.github.io/
+- title: CRTM / Certified Red Team (GCB)
+  icon: fab fa-github
+  url: https://f0ns1-crtm.github.io/
+- title: Autonomous pentesting agents (IAS / LLM)
+  icon: fab fa-github
+  url: https://agentef0ns1.github.io/agente-f0ns1/
+- title: Road to OSCP
   icon: fab fa-blogger
   url: https://roadtooscp-f0ns1.blogspot.com/
 - title: Twitch streaming channel
   icon: fab fa-twitch
   url: https://www.twitch.tv/f0ns1_mad
-
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -56,122 +61,218 @@ additional_links:
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/igs.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi everyone, I'm Ildefonso González Sánchez and I'm 33 years old.
-  
-  Actually, I'm cybersecurity IT consultant, technology lover but I feel passion for:
-    - Offensive Security
-    - Cybersecurity
-    - Software
-    - Operative systems
-    - Architecture
-  
-  I want to work on the following positions:
-    - Read Teaming
-    - Pentesting
-    - Ethical hacker
-    - Cybersecurity consultant
+about_content: |
+  Especialista en ciberseguridad con **con 15 años** de experiencia en IT y **8 años** en ciberseguridad ofensiva, red team, pentesting, threat hunting y arquitectura de seguridad entre otros.
 
-content:
-  - title: Education
-    layout: list
+  Actualmente **Especialista en Ciberseguridad** en Áudea Seguridad de la Información (coordinación de equipo y pentesting). Anteriormente Red Team Ethical Hacker en Telefónica Tech (MCCE), Cyber Threat Hunter e Incident Handler en Santander, y roles en Airbus, Santander Technology y Meliá Hotels International.
+
+  **Certificaciones:** CRTM · GCB · CRTE · CRTP · CRTO · CCFH · OSCP · CrowdStrike Falcon Hunter · CSIO · CSCE
+
+  **Formación:** Máster en Ciberseguridad orientado a IAs (UCAM, en curso) · Máster en Ciberseguridad en 5G (UC3M) · Máster Ofensivo (UCAM) · Máster en Ciberseguridad (UCJC) · ITIS (URJC)
+
+  Apasionado por la seguridad ofensiva, red teaming, agentes autónomos de IA para pentesting y divulgación en blogs y streaming.
+
+# Columna izquierda (1/3): formación oficial, certificaciones, otros
+sidebar:
+  education_official:
+    title: Formación oficial
     content:
-      - layout: OSCP
-        title: Offensive Security Certified professional
-        sub_title:
-        caption: (2021-2022)
-        quote: >
-          Offensive Security
-        description: | # this will include new lines to allow paragraphs
-          Campus Internacional de ciberseguridad /Universidad Católica de Murcia
-      - layout: Master Degree Offensive Security
-        title: Master Degree Offensive Security
-        sub_title:
-        caption: (2021-2022)
-        quote: >
-          Offensive Security
-        description: | # this will include new lines to allow paragraphs
-          Campus Internacional de ciberseguridad /Universidad Católica de Murcia
-      - layout: Master Degree Cybersecurity
-        title: Master Degree Cybersecurity
-        caption: (2016-2017)
-        quote: >
-          CyberSecurity
-        description: | # this will include new lines to allow paragraphs
-            Universidad Camilo Jose Cela / IMF Business Madrid / Deloitte Cybersoc
-      - layout: Technical Enginieer on Informatic Systems
-        title: Technical Enginieer on Informatic Systems
-        caption: (2009-2014)
-        sub_title: ITIS
-        quote: >
-            Informatic Engineering
-        description: | # this will include new lines to allow paragraphs
-            Universidad Rey Juan Carlos
-  - title: Experience
-    layout: list
-    content:
-      - layout: Resume
-        title: CV Ildefonso González Sanchez
-        sub_title:
-        quote: >
-            Informatic Engineering
-        description: | # this will include new lines to allow paragraphs
-            [Ildefonso González Sánchez - Resume -cv](https://f0ns1.github.io/images/CV_IGS_22092022.pdf)
-  - title: Recommended by Ildefonso
-    layout: list
-    content:
-      - layout: Titulations
-        title: Titulations
-        sub_title:
-        quote: >
-          Informatic Engineering
-        description: | 
-          | 
-          [Ildefonso - ITIS - Tittle](https://f0ns1.github.io/images/ITIS.jpg)
-          |
-          [Ildefonso - Cybersecurity - Master1 - Tittle1](https://f0ns1.github.io/images/Master1.jpeg)
-          |
-          [Ildefonso - Cybersecurity - Master1 - Tittle2](https://f0ns1.github.io/images/Master1.1.pdf)
-          |
-          [Ildefonso - Offensive Cybersecurity - Master2 -Tittle1 ]
-          |
-          [Ildefonso - Offensive Cybersecurity - Master2 - Tittle2]
-          |
-          [Ildefonso - Recommended by companies (old) ](https://f0ns1.github.io/images/Cartas_recomendación_IGS.pdf)
-      - layout: Hacking certificates
-        title: Hacking certificates
-        sub_title:
-        quote: >
-          Informatic Engineering
+      - border: weak
+        title: UC3M (Universidad Carlos III de Madrid)
+        sub_title: Máster en Ciberseguridad en 5G
+        caption: En formación
         description: |
-          [ Offensive Security Certified Professional OSCP ](https://f0ns1.github.io/images/OSCP.pdf)
-          |
-          [ Pentesting Certificate CSIO ](https://f0ns1.github.io/images/CSIO.pdf) 
-          |
-          [ Exploitng Certificate CSCE ](https://f0ns1.github.io/images/CSCE.pdf) 
-          |
-          [ Pentesting && Wireless Certificate Sav1t4r courses ](https://f0ns1.github.io/images/certificados_s4vitar.pdf) 
-          |
-          [ Hacking with python && software security ](https://ethicalhackersacademy.com/) 
-          |
-      - layout: Streaming channels
-        title: Streaming channels
-        sub_title:
-        quote: >
-          Informatic Engineering
-        description: | # this will include new lines to allow paragraphs
-          |
-          [ Youtube channel - Persistence ](https://www.youtube.com/user/xiquifonso/videos) 
-          |
-          [ Tiwtch channel - streaming ](https://www.twitch.tv/f0ns1_mad/videos?filter=archives&sort=time)
-          |
-      - layout: OSCP Personal blog
-        title: Road to OSCP personal blog
-        sub_title:
-        quote: >
-          Informatic Engineering
-        description: | # this will include new lines to allow paragraphs
-          [ Road to OSCP personal Blog ](https://roadtooscp-f0ns1.blogspot.com/)
+          Ciberseguridad aplicada a entornos y cores de redes 5G.
+      - border: weak
+        title: UCAM (Universidad Católica de Murcia)
+        sub_title: Máster en Ciberseguridad orientado a IAs
+        caption: En curso
+        quote: Campus Internacional de Ciberseguridad
+        description: |
+          Formación actual en ciberseguridad con enfoque en inteligencia artificial.
+      - border: weak
+        title: UCAM (Universidad Católica de Murcia)
+        sub_title: Máster en Ciberseguridad Ofensiva
+        caption: 2017 – 2019
+        quote: Campus Internacional de Ciberseguridad
+      - border: weak
+        title: Universidad Camilo José Cela
+        sub_title: Máster en Ciberseguridad
+        caption: 2016 – 2017
+        quote: IMF / Deloitte Cybersoc
+      - border: weak
+        title: Universidad Rey Juan Carlos
+        sub_title: Ingeniería Técnica en Informática de Sistemas
+        caption: 2009 – 2014
+  certifications:
+    title: Certificaciones
+    content:
+      - border: weak
+        title: Red Team & Offensive
+        description: |
+          CRTM · GCB · CRTE · CRTP · CRTO · CCFH · OSCP · [CrowdStrike Falcon Hunter](https://credly.com/badges/4160e2e4-1381-462d-a236-c55dec7ae98b/public_url)
+      - border: weak
+        title: Pentesting & formación
+        description: |
+          [CSIO](https://f0ns1.github.io/images/CSIO.pdf) · [CSCE](https://f0ns1.github.io/images/CSCE.pdf) · [Sav1t4r](https://f0ns1.github.io/images/certificados_s4vitar.pdf)
+  other:
+    title: Otros
+    content:
+      - border: weak
+        title: Titulaciones
+        description: |
+          [ITIS – URJC](https://f0ns1.github.io/images/ITIS.jpg) · [Master UCJC](https://f0ns1.github.io/images/Master1.jpeg) · [Recomendaciones](https://f0ns1.github.io/images/Cartas_recomendación_IGS.pdf)
+      - border: weak
+        title: CV completo (PDF)
+        link: https://f0ns1.github.io/images/CV_IGS_22092022.pdf
+        caption: Descargar currículum
+
+# Columna derecha (2/3): experiencia laboral
+experience:
+  title: Experiencia laboral
+  content:
+      - layout: right
+        border: weak
+        title: Áudea Seguridad de la Información
+        link: https://www.linkedin.com/company/-udea-seguridad-de-la-informaci-n
+        sub_title: Especialista en Ciberseguridad
+        caption: Feb 2025 – Present · Madrid
+        description: |
+          Cliente Final Vodafone España: Coordinación de equipo y pentester principal.
+      - layout: left
+        border: weak
+        title: Telefónica Tech
+        link: https://www.linkedin.com/company/telefonicatech
+        sub_title: Red Team Ethical Hacker
+        caption: Aug 2024 – Dec 2024 · Madrid
+        description: |
+          Cliente final: Mando Conjunto del Ciberespacio de España (MCCE).
+      - layout: right
+        border: weak
+        title: Santander Digital Services
+        link: https://www.linkedin.com/company/santander-gto
+        sub_title: Cyber Threat Hunter (SGT Detect)
+        caption: May 2023 – Jun 2024
+        description: |
+          Threat hunting en el equipo de detección de Santander Global Technology & Operations.
+      - layout: left
+        border: weak
+        title: Santander Digital Services
+        sub_title: Cyber Incident Handler (CERT SGTO)
+        caption: Dec 2022 – May 2023
+        description: |
+          Gestión y respuesta a incidentes de seguridad en el CERT.
+      - layout: right
+        border: weak
+        title: jtsec Beyond IT Security
+        link: https://www.linkedin.com/company/jtsec
+        sub_title: Ethical Hacker Product Evaluator
+        caption: May 2022 – Sep 2022 · Granada
+        description: |
+          Evaluación ética de productos de seguridad (Common Criteria, FIPS, LINCE, PCI-PTS).
+      - layout: left
+        border: weak
+        title: Univention
+        link: https://www.linkedin.com/company/univention
+        sub_title: Freelance IT Consultant
+        caption: Dec 2021 – Feb 2022 · Alemania
+        description: |
+          Consultoría en identidad y gestión de accesos (open source IAM).
+      - layout: right
+        border: weak
+        title: ALTEN
+        link: https://www.linkedin.com/company/alten
+        sub_title: Team Lead, Cybersecurity Consultant (Airbus Aerospace & Defense)
+        caption: Feb 2021 – Dec 2021 · Madrid
+        description: |
+          Liderazgo de equipo y consultoría de ciberseguridad en proyectos Airbus.
+      - layout: left
+        border: weak
+        title: SOTEC CONSULTING
+        link: https://www.linkedin.com/company/sotec-consulting-inc
+        sub_title: Security Architect (Santander Technology)
+        caption: Jun 2019 – Feb 2021 · Madrid
+        description: |
+          Arquitectura de seguridad en Santander Technology.
+      - layout: right
+        border: weak
+        title: Brujula Tecnologías de la Información
+        sub_title: Consultor de Ciberseguridad IT (Meliá Hotels International)
+        caption: Sep 2018 – May 2019 · Palma de Mallorca
+      - layout: left
+        border: weak
+        title: Grupo CMC
+        sub_title: Arquitecto de Sistemas
+        caption: Mar 2016 – Sep 2018 · Madrid
+      - layout: right
+        border: weak
+        title: Core Networks SL
+        link: https://www.linkedin.com/company/core-networks-sl
+        sub_title: Desarrollo y soporte en aplicaciones de seguridad
+        caption: Mar 2015 – Mar 2016 · Madrid
+      - layout: left
+        border: weak
+        title: Bilbomática
+        link: https://www.linkedin.com/company/bilbomatica
+        sub_title: Desarrollo de software
+        caption: Oct 2014 – Feb 2015 · Madrid
+      - layout: right
+        border: weak
+        title: Universidad Rey Juan Carlos
+        link: https://www.linkedin.com/school/universidad-rey-juan-carlos
+        sub_title: Becario – Departamento de aplicativos web
+        caption: Dec 2013 – Aug 2014 · Madrid
+      - layout: left
+        border: weak
+        title: GMV
+        link: https://www.linkedin.com/company/gmv
+        sub_title: Soporte de sistemas Nivel 2 (SOC 24×7)
+        caption: Oct 2011 – Sep 2013
+      - layout: right
+        border: weak
+        title: ISOIN-HP
+        sub_title: Operador de sistemas (CEPSA)
+        caption: Aug 2011 – Sep 2011
+
+# Pie de página: blogs técnicos y formación específica
+bottom_sections:
+  - title: Blogs técnicos
+    layout: list
+    content:
+      - layout: top
+        border: weak
+        title: Bypaseando mis limitaciones
+        link: https://f0ns1reviewed.github.io/
+        sub_title: Malware development & EDR/AV bypass
+        description: |
+          Desarrollo de malware, inyección de código y bypass de EDR/AV en Windows. [Visitar blog](https://f0ns1reviewed.github.io/)
+      - layout: top
+        border: weak
+        title: CRTM Walkthrough Global Central Bank
+        link: https://f0ns1-crtm.github.io/
+        sub_title: Certified Red Team Master (GCB)
+        description: |
+          Walkthrough Altered Security — AD, 8 attack paths, multi-dominio. [Visitar blog](https://f0ns1-crtm.github.io/)
+      - layout: top
+        border: weak
+        title: How to Train Your Own AI Model
+        link: https://agentef0ns1.github.io/agente-f0ns1/
+        sub_title: Agentes autónomos · LLM local (UCAM – Máster IA)
+        description: |
+          Fine-tuning, Ollama, agente de pentesting en Docker. [Visitar blog](https://agentef0ns1.github.io/agente-f0ns1/)
+  - title: Formación específica y recursos
+    layout: list
+    content:
+      - layout: top
+        border: weak
+        title: Cursos y certificados adicionales
+        description: |
+          [OSCP (PDF)](https://f0ns1.github.io/images/OSCP.pdf) · [CRTM](https://credential.net/7095643a-23bc-4f70-b914-3e6f3582886a) · [CRTE](https://credential.net/8cfd8426-113d-410c-af4b-519f185e2921) · [CRTP](https://credential.net/586384fb-c3b2-4ca0-9c92-8e5e80c5b5c0) · [Hacking with Python](https://ethicalhackersacademy.com/)
+      - layout: top
+        border: weak
+        title: Comunidad y streaming
+        description: |
+          [Road to OSCP](https://roadtooscp-f0ns1.blogspot.com/) · [YouTube](https://www.youtube.com/user/xiquifonso/videos) · [Twitch](https://www.twitch.tv/f0ns1_mad/videos?filter=archives&sort=time)
 
 # Footer
 footer_show_references: true

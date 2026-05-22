@@ -1,0 +1,17 @@
+{% for item in include.content %}
+  <div class="sidebar-entry border-{{ item.border | default: 'weak' }}">
+    <h4 id="{{ item.title | slugify }}">
+      {%- if item.link -%}
+        {% include a.html href=item.link %}{{ item.title | escape }}</a>
+      {%- else -%}
+        {{ item.title | escape }}
+      {%- endif -%}
+    </h4>
+    {%- if item.sub_title -%}<p class="sidebar-sub"><b>{{ item.sub_title }}</b></p>{%- endif -%}
+    {%- if item.caption -%}<p class="sidebar-caption">{{ item.caption }}</p>{%- endif -%}
+    {%- if item.quote -%}<p class="sidebar-quote">{{ item.quote }}</p>{%- endif -%}
+    {%- if item.description -%}
+      <div class="sidebar-body">{{ item.description | strip | markdownify }}</div>
+    {%- endif -%}
+  </div>
+{% endfor %}

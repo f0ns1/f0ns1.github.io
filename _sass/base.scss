@@ -162,8 +162,17 @@ body {
   }
 }
 
+.offensive-theme .resume-page .container,
+.offensive-theme .resume-page.container-fluid {
+  margin-top: 0;
+}
+
 .header-container {
   margin-top:50px;
+}
+
+.offensive-theme .resume-page .header-container {
+  margin-top: 1.5rem;
 }
 
 .header-right {

@@ -1,0 +1,36 @@
+<div class="resume-split">
+  <div class="row resume-split-row">
+    <aside class="col-xs-12 col-md-4 resume-sidebar" aria-label="Formación y certificaciones">
+      <section class="sidebar-block">
+        <h3 id="{{ site.sidebar.education_official.title | slugify }}">{{ site.sidebar.education_official.title }}</h3>
+        {% include sidebar-list.html content=site.sidebar.education_official.content %}
+      </section>
+
+      <section class="sidebar-block">
+        <h3 id="{{ site.sidebar.certifications.title | slugify }}">{{ site.sidebar.certifications.title }}</h3>
+        {% include sidebar-list.html content=site.sidebar.certifications.content %}
+      </section>
+
+      <section class="sidebar-block">
+        <h3 id="{{ site.sidebar.other.title | slugify }}">{{ site.sidebar.other.title }}</h3>
+        {% include sidebar-list.html content=site.sidebar.other.content %}
+      </section>
+    </aside>
+
+    <div class="col-xs-12 col-md-8 resume-main" aria-label="Experiencia laboral">
+      <section class="main-block">
+        <h3 id="{{ site.experience.title | slugify }}">{{ site.experience.title }}</h3>
+        {% include section-list.html content=site.experience.content %}
+      </section>
+    </div>
+  </div>
+
+  <div class="resume-bottom" aria-label="Blogs y formación específica">
+    {% for section in site.bottom_sections %}
+      <section class="bottom-block resume-panel">
+        <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+        {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+      </section>
+    {% endfor %}
+  </div>
+</div>

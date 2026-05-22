@@ -1,10 +1,9 @@
-version: '3'
-
 services:
   jekyll:
-    image: jekyll/jekyll
+    image: jekyll/jekyll:4
     container_name: modern-resume-theme
-    command: jekyll serve --watch --force_polling --verbose
+    working_dir: /srv/jekyll
+    command: sh -c "cp -a /srv/jekyll /tmp/site && cd /tmp/site && BUNDLE_FROZEN=1 bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling"
     ports:
       - 4000:4000
       - 35729:35729

@@ -1,7 +1,7 @@
-<div class="container footer-container">
+<div class="footer-container {% if site.resume_layout == 'split' %}container-fluid{% else %}container{% endif %}">
   <p>
     {{ site.name | escape }} -
-    <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+    <a href="#" data-email-b64="{{ site.email | escape }}" class="email-decode" target="_blank"></a>
     {%- if site.footer_show_references -%}
       &nbsp;- {{ site.references_title | default: "References on request" }}
     {%- endif -%}
